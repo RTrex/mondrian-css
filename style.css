@@ -1,0 +1,41 @@
+body {
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+ .container {
+    display: grid;
+    gap: 9px;
+    background-color: black;
+    height: 748px;
+    width: 748px;
+    grid-template-columns:200px 471px 50px;
+    grid-template-rows: 300px 325px 40px auto;
+ }
+ 
+ .item {
+    background-color: #F0F1EC;
+ }
+ .white1 {
+    background-color: #F0F1EC;
+ }
+ .red {
+    background-color: #E72F24;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+ }
+ .blue {
+    background-color: #004592;
+    grid-row-start: 3;
+    grid-row-end: 5;
+ }
+ .white3 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+ }
+ .yellow {
+    background-color: #F9D01E;
+ }
